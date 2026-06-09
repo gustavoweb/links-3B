@@ -5,7 +5,9 @@ function Sobre() {
   return (
     <div className={styles.sobre}>
       <h1>Sobre</h1>
-      <img src={sobreGif} alt="" />
+      <img src={sobreGif} alt="" className={styles.gif} />
+      <button>Home</button>
+      <button>Contato</button>
     </div>
   )
 }

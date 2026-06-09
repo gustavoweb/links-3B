@@ -5,7 +5,9 @@ function Contato() {
   return (
     <div className={styles.contato}>
       <h1>Contato</h1>
-      <img src={contatoGif} alt="" />
+      <img src={contatoGif} alt="" className={styles.gif} />
+      <button>Home</button>
+      <button>Saiba +</button>
     </div>
   )
 }
